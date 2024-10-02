@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bố cục trang</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+        }
+        .header {
+            display: flex;
+            background-color: #00ffff;
+            height: 100px;
+        }
+        .logo {
+            background-color: #b2fef7;
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .banner {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .head-link {
+            background-color: #0000ff;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+        }
+        .main-content {
+            display: flex;
+            height: 470px;
+        }
+        .left, .right {
+            background-color: #f4e1c1;
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content {
+            background-color: #f0f8ff;
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #b22222;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Logo</div>
+        <div class="banner">Banner</div>
+    </header>
+    <div class="head-link">Head-Link</div>
+    <div class="main-content">
+        <div class="left">Left</div>
+        <div class="content">Content</div>
+        <div class="right">Right</div>
+    </div>
+    <footer class="footer">
+        Footer
+    </footer>
+</body>
+</html>
